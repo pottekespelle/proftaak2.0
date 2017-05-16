@@ -1,0 +1,105 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #173753;
+}
+
+.header {
+	position: relative;
+  height: 100px;
+  padding: 15px 0;
+  background: rgba(11,11,11,11);
+  background: -moz-linear-gradient(top, rgba(11,11,11,1) 0%, rgba(11,11,11,1) 20%, rgba(28,28,28,1) 80%, rgba(28,28,28,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(11,11,11,1)), color-stop(20%, rgba(11,11,11,1)), color-stop(80%, rgba(28,28,28,1)), color-stop(100%, rgba(28,28,28,1)));
+  background: -webkit-linear-gradient(top, rgba(11,11,11,1) 0%, rgba(11,11,11,1) 20%, rgba(28,28,28,1) 80%, rgba(28,28,28,1) 100%);
+  background: -o-linear-gradient(top, rgba(11,11,11,1) 0%, rgba(11,11,11,1) 20%, rgba(28,28,28,1) 80%, rgba(28,28,28,1) 100%);
+  background: -ms-linear-gradient(top, rgba(11,11,11,1) 0%, rgba(11,11,11,1) 20%, rgba(28,28,28,1) 80%, rgba(28,28,28,1) 100%);
+  background: linear-gradient(to bottom, rgba(11,11,11,1) 0%, rgba(11,11,11,1) 20%, rgba(28,28,28,1) 80%, rgba(28,28,28,1) 100%);
+  margin-bottom: 20px;
+  border-bottom: solid 1px #111111;
+}
+
+.logo {
+	left: 20px;
+	position: absolute;
+	top: 50%;
+	height: 50px;
+	margin-top: -25px;
+}
+
+.login {
+	right: 20px;
+	position: absolute;
+	top: 50%;
+	height: 40px;
+	margin-top: -20px;
+}
+
+.home-content {
+  text-align: center;
+}
+
+.home-content h2 {
+  color: #008aff;
+  font-size: 60px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.home-content p {
+  color: white;
+  font-size: 15px;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 500px;
+    height: calc(100vh - 550px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input {
+  border: 1px solid #008aff;
+  font-size: 20px;
+  position: relative;
+}
+
+.form-input .input {
+  background: #fff;
+  border: none;
+  padding: .4em .7em;
+  width: 100%;
+}
+.form-input .input:focus {
+  background: #ffc;
+}
+
+.form-input .icon {
+  left: 0;
+  margin: .5em;
+  position: absolute;
+  top: 0;
+}
+
+.form-input .icon ~ .input {
+  padding-left: 2em;
+}
+
+.form-input .button {
+  background: none;
+  border: none;
+  margin: .5em;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
